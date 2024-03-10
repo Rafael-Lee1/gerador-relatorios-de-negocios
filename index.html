@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gerador de Relatórios de Negócios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerador de Relatórios de Negócios</h1>
+    <form id="reportForm">
+        <label for="companyName">Nome da Empresa:</label>
+        <input type="text" id="companyName" required><br>
+        <label for="reportContent">Conteúdo do Relatório:</label>
+        <textarea id="reportContent" rows="4" required></textarea><br>
+        <button type="submit">Gerar Relatório</button>
+    </form>
+    <h2>Relatório Gerado:</h2>
+    <pre id="generatedReport"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
